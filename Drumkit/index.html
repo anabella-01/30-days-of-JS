@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript drum kit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="keys">
+        <div data-key="KeyA" class="key">
+            <span class="sound"></span>
+            <div class="images">
+                <img src="Assets/img/yoshi-nes.png" alt="Yoshi">
+            </div>
+            <kbd>A</kbd>
+        </div>
+        <div data-key="KeyS" class="key">
+            <span class="sound"></span>
+            <div class="images">
+                <img src="Assets/img/coin-mario.png" alt="coin">
+            </div>
+            <kbd>S</kbd>
+        </div>
+        <div data-key="KeyD" class="key">
+            <span class="sound"></span>
+            <div class="images">
+                <img src="Assets/img/kirby.png" alt="kirby">
+            </div>
+            <kbd>D</kbd>
+        </div>
+        <div data-key="KeyF" class="key">
+            <span class="sound"></span>
+            <div class="images">
+                <img src="Assets/img/mushroom.png" alt="mushroom">
+            </div>
+            <kbd>F</kbd>
+        </div>
+        <div data-key="KeyG" class="key">
+            <span class="sound"></span>
+            <div class="images">
+                <img src="Assets/img/jump.png" alt="mario">
+            </div>
+            <kbd>G</kbd>
+        </div>
+        <div data-key="KeyH" class="key">
+            <span class="sound"></span>
+            <div class="images">
+                <img src="Assets/img/megaman.png" alt="megaman">
+            </div>
+            <kbd>H</kbd>
+        </div>
+
+        <audio data-key="KeyA" src="Assets/sounds/Yoshi-VoiceEffect.mp3"></audio>
+        <audio data-key="KeyS" src="Assets/sounds/Coin-Mario.mp3"></audio>
+        <audio data-key="KeyD" src="Assets/sounds/Extra Life-Kirby.mp3"></audio>
+        <audio data-key="KeyF" src="Assets/sounds/Hongo-Mario.mp3"></audio>
+        <audio data-key="KeyG" src="Assets/sounds/Jump-Mario.mp3"></audio>
+        <audio data-key="KeyH" src="Assets/sounds/Megaman.mp3"></audio>
+ 
+        <script src="index.js"></script>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.key{
+    border: 4px solid black;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    transition: all 0.08s;
+    background: rgba(0, 0, 0, 0.2);
+    text-shadow: 0 0 5px black;
+}
+
+.playing{
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 10px #ffc600;
+}
+
+body{
+    background-image: url('Assets/img/nes-background.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img{
+    display: block;
+    width: 10rem; 
+    height: 10rem; 
+    object-fit: contain;
+    margin: 1rem;
+}
+
+kbd{
+display: block;
+font-size: 40px;
+text-align: center;
+padding: 1rem;
+}
+
+.keys{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 5rem;
+    flex-wrap: wrap;   
+}
+
